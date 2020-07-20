@@ -20,8 +20,8 @@ requirements:
     - pip
   run:
     - python
-    - urllib3 >=1.15
-    - six >=1.10
+    - urllib3 >=1.25.8
+    - six >=1.14.0
     - certifi
     - python-dateutil
 
