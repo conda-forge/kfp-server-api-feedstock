@@ -5,7 +5,7 @@ Home: https://github.com/kubeflow/pipelines
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: KF Pipelines API
 
