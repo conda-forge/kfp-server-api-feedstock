@@ -1,5 +1,5 @@
 {% set name = "kfp-server-api" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e74df3cf5c999033b264c0587cdd26c1a30297820bca171c6dda2aa482b20392
+  sha256: fa737299b1c01d06a2a75f62576c777ee3a568ac83e6a51264acfade9dceee63
 
 build:
   noarch: python
