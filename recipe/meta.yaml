@@ -1,5 +1,5 @@
 {% set name = "kfp-server-api" %}
-{% set version = "1.4.1" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ac2b698ab20df152aa3619f7446a2a3025de99588832946560818a696d4f4471
+  sha256: 7a0f86d804647d4a526b42f3a04529324b0d50cba50e32e6706f950554adbb3e
 
 build:
   noarch: python
@@ -20,8 +20,8 @@ requirements:
     - pip
   run:
     - python >=3.5.3
-    - urllib3 >=1.25.8
-    - six >=1.14.0
+    - urllib3 >=1.15
+    - six >=1.10
     - certifi
     - python-dateutil
 
@@ -30,7 +30,7 @@ test:
     - kfp_server_api
 
 about:
-  home: https://github.com/kubeflow/pipelines
+  home: https://github.com/kubeflow/pipelines/tree/master/backend/api/python_http_client
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
