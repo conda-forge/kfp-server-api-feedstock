@@ -1,7 +1,7 @@
 About kfp-server-api
 ====================
 
-Home: https://github.com/kubeflow/pipelines
+Home: https://github.com/kubeflow/pipelines/tree/master/backend/api/python_http_client
 
 Package license: Apache-2.0
 
