@@ -1,11 +1,11 @@
-About kfp-server-api
-====================
+About kfp-server-api-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kfp-server-api-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/kubeflow/pipelines/tree/master/backend/api/python_http_client
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kfp-server-api-feedstock/blob/main/LICENSE.txt)
 
 Summary: KF Pipelines API
 
