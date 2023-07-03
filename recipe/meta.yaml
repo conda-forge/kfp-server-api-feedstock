@@ -1,25 +1,25 @@
 {% set name = "kfp-server-api" %}
-{% set version = "1.8.4" %}
+{% set version = "1.8.5" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6dc91029f330501f378be785d535fda5abcefbaa40b2f9b91685ed10602a18a3
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kfp-server-api-{{ version }}.tar.gz
+  sha256: 482d71765ba57c003164dbb980a8cb1a18d234b578d064dc88dbeb3e4c7ab6de
 
 build:
   noarch: python
-  number: 0
   script: {{ PYTHON }} -m pip install . -vv
+  number: 0
 
 requirements:
   host:
-    - python >=3.5.3
+    - python >=3.7
     - pip
   run:
-    - python >=3.5.3
+    - python >=3.7
     - urllib3 >=1.15
     - six >=1.10
     - certifi
