@@ -1,6 +1,7 @@
 {% set name = "kfp-server-api" %}
 {% set version = "2.0.0" %}
 
+
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -9,10 +10,11 @@ source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kfp-server-api-{{ version }}.tar.gz
   sha256: c0462045244a69211bc82a8d6af6602ae8b4f716ee0ac0be5dc34b7ea76c7bd1
 
+
 build:
   noarch: python
-  number: 0
   script: {{ PYTHON }} -m pip install . -vv
+  number: 0
 
 requirements:
   host:
@@ -28,6 +30,10 @@ requirements:
 test:
   imports:
     - kfp_server_api
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/kubeflow/pipelines/tree/master/backend/api/python_http_client
