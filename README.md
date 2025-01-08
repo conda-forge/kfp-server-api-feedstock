@@ -152,6 +152,3 @@ Feedstock Maintainers
 * [@radcheb](https://github.com/radcheb/)
 * [@tanguycdls](https://github.com/tanguycdls/)
 
-
-<!-- dummy commit to enable rerendering -->
-
