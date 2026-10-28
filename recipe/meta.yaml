@@ -1,5 +1,5 @@
 {% set name = "kfp-server-api" %}
-{% set version = "2.17.3" %}
+{% set version = "2.18.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: bae229d12bfca09cb7992d0db6f89e4d0facbf274cd8d1597bb93a714dd4aa86
+  sha256: 3e81460a2e7bb66fa260825b0b1f87e7f0bff6d8e0da2015a4e8fbc7b4ec28c9
 
 
 build:
